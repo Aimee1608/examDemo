@@ -1,0 +1,221 @@
+//"out":true
+// 引用学而思字体
+@import './../iconfont/xuefont/iconfont.css';
+@import './../iconfont/font1/iconfont.css';
+/******reset********/
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+ caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+html{
+  width:100%;
+  min-height: 100%;
+}
+body{
+  font-family: Microsoft YaHei, tahoma, arial, Hiragino Sans GB, sans-serif;
+  font-size: 12px;
+  line-height: 1.42857143;
+  font-weight: normal;
+  color: #333;
+  background-color: #f5f5f5;
+  min-width: 1200px;
+  min-height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  * {
+    box-sizing: border-box;
+  }
+}
+h1, h2, h3, h4, h5, h6{
+  font-size:100%;
+  font-weight:normal
+}
+q:before, q:after{
+  content:''
+}
+abbr, acronym{
+  border:0
+}
+a{
+     text-decoration:none;
+     color: #333;
+}
+ ul, li{
+   list-style: none;
+ }
+
+// input[type="text"], input[type="button"], input[type="submit"], input[type="search"]{
+//   -webkit-appearance:none;
+//   border-radius:0;
+// }
+
+/*************正文内容*************/
+#app {
+  color: #333;
+  box-sizing: border-box;
+  min-width: 1200px !important;
+}
+
+.clear{
+  &::after{
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+  }
+}
+
+.container{
+  width: 1200px !important;
+  margin: 0 auto;
+  padding: 0;
+}
+.xesBtn{
+  width: 120px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 4px;
+  background-image:linear-gradient(-269deg, #F13232 50%, #F0773C 100%);
+  cursor: pointer;
+}
+
+/*****latex margin reset******/
+.latex-container{
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%!important;
+  max-width: 100%!important;
+}
+ div.MathJax_Display{
+  max-width: 100%;
+  width: auto!important;
+  text-align: left!important;
+  display: inline!important;
+  margin: 0;
+  word-break: break-all; 
+  word-wrap: break-word; 
+  overflow-x:auto;
+  overflow-y:hidden;
+}
+.MathJax{
+  text-align: left!important;
+  display: inline !important;
+  text-overflow:ellipsis;
+  word-break: break-all; 
+  word-wrap: break-word; 
+  // white-space: pre-wrap;
+}
+div .MathJax nobr{
+  max-width: 100%;
+  display: inline !important;
+  overflow-x:auto;
+  overflow-y:hidden;
+  word-break: break-all; 
+  word-wrap: break-word; 
+}
+.MathJax:focus{
+  outline: none;
+}
+/*ubb标签样式*/
+.test_blank{
+  display: inline-block;
+  border-bottom: 1px solid #333333;
+  min-width: 60px;
+}
+.typo-em {
+    display: inline-block;
+    position: relative;
+    // top:6px;
+    font-weight: inherit;
+}
+.typo-em::after {
+    content: "・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・";
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0.65em;
+    width: 100%;
+    font-weight: normal;
+}
+span.wave {
+    background: url("../assets/wave.png") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+    padding-bottom: 2px;
+}
+.question-title{
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 30px;
+  img{
+    box-sizing: border-box;
+    max-width: 100%;
+    // height: auto;
+    vertical-align: middle;
+    object-fit: contain;
+    // padding: 0 5px;
+  }
+  .audio{
+    margin-top: 10px;
+  }
+  .question-title-inner{
+    overflow-x:auto;
+    overflow-y:hidden;
+  }
+}
+.dialogBox{
+  .el-dialog--center{
+    width: 350px;
+    border-radius: 4px;
+  }
+  .el-dialog__body{
+    text-align: center;
+    // color: #333333;
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .el-dialog__footer{
+    border-top: 1px solid #DCDCDC;
+    padding: 0;
+  }
+  .dialog-footer{
+    display: flex;
+    height: 44px;
+    align-content: space-between;
+    align-items: center;
+    .cancleBtn, .sureBtn{
+      width: 100%;
+      height: 44px;
+      line-height: 44px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .cancleBtn{
+      color: #666666;
+      border-right: 1px solid #DCDCDC;
+    }
+    .sureBtn{
+      color: #F13232;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+// bem 结构生成器
+// 原理及使用参考：https://www.w3cplus.com/preprocessor/pushing-bem-to-the-next-level-with-sass-3-4.html
+
+$element-separator: '__';
+$modifier-separator: '--';
+
+@function contains-modifier($selector) {
+  $selector: selector-to-string($selector);
+  @if str-index($selector, $modifier-separator) {
+    @return true;
+  } @else {
+    @return false;
+  }
+}
+
+@function selector-to-string($selector) {
+  $selector: inspect($selector); //cast to string
+  $selector: str-slice($selector, 2, -2); //remove brackets
+  @return $selector;
+}
+
+@function get-block($selector) {
+  $selector: selector-to-string($selector);
+  $modifier-start: str-index($selector, $modifier-separator) - 1;
+  @return str-slice($selector, 0, $modifier-start);
+}
+
+@mixin b($block) {
+  .#{$block} {
+    @content;
+  }
+}
+
+@mixin e($element) {
+  $selector: &;
+  @if contains-modifier($selector) {
+    $block: get-block($selector);
+    @at-root {
+      #{$selector} {
+        #{$block+$element-separator+$element} {
+          @content;
+        }
+      }
+    }
+  } @else {
+    @at-root {
+      #{$selector+$element-separator+$element} {
+        @content;
+      }
+    }
+  }
+}
+
+@mixin m($modifier) {
+  @at-root {
+    #{&}#{$modifier-separator+$modifier} {
+      @content;
+    }
+  }
+}

@@ -2,23 +2,23 @@
   <nav class="global-nav">
     <div class="container">
       <h1 class="logo">
-        <a target="_blank" href="https://www.xueersi.com/" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.xueersi.com&click_id=1.8.1&target_id=1.1&api_id=1.2.0" class="logo__link">学而思网校</a>
-        <span>学而思网校</span>
+        <a target="_blank" href="https://www.mangoya.com/" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.mangoya.com&click_id=1.8.1&target_id=1.1&api_id=1.2.0" class="logo__link">mangoya</a>
+        <span>mangoya</span>
       </h1>
       <div class="nav-list">
-        <a target="_blank" href="https://www.xueersi.com/" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.xueersi.com&click_id=1.8.1&target_id=1.1&api_id=1.2.0" class="nav-list__item">首页</a>
-        <a target="_blank" href="https://www.xueersi.com/chu1-0-4" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.xueersi.com/chu1-0-4&click_id=1.8.2&target_id=1.2&api_id=1.2.0" class="nav-list__item">选课中心</a>
-        <a target="_blank" href="https://www.xueersi.com/zhibo/" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.xueersi.com/zhibo/&click_id=1.8.3&target_id=1.6&api_id=1.5.20" class="nav-list__item">免费讲座</a>
-        <a target="_blank" href="https://i.xueersi.com" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://i.xueersi.com&click_id=1.8.4&target_id=''&api_id=1.1.0" class="nav-list__item" style="color:#f13232;">学习中心</a>
+        <a target="_blank" href="https://www.mangoya.com/" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.mangoya.com&click_id=1.8.1&target_id=1.1&api_id=1.2.0" class="nav-list__item">首页</a>
+        <a target="_blank" href="https://www.mangoya.com/chu1-0-4" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.mangoya.com/chu1-0-4&click_id=1.8.2&target_id=1.2&api_id=1.2.0" class="nav-list__item">选课中心</a>
+        <a target="_blank" href="https://www.mangoya.com/zhibo/" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.mangoya.com/zhibo/&click_id=1.8.3&target_id=1.6&api_id=1.5.20" class="nav-list__item">免费讲座</a>
+        <a target="_blank" href="https://i.mangoya.com" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://i.mangoya.com&click_id=1.8.4&target_id=''&api_id=1.1.0" class="nav-list__item" style="color:#f13232;">学习中心</a>
         <!-- <a target="_blank" href="https://fudao.dahai.com/wx/" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://fudao.dahai.com/wx/&click_id=1.8.10&target_id=''&api_id=1.1.0" class="nav-list__item">1对1</a> -->
         <!-- <div class="nav-list__item nav-list__find-more">
           <span class="find-more">发现更多</span><i class="drop-down-icon"></i>
           <div class="nav-list__find-more__box">
             <div class="find-more-list dropdown">
-              <a class="find-more-list__item" href="https://code.xueersi.com" target="_blank" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://code.xueersi.com&click_id=1.8.26target_id=&api_id=1.1.0">编程社区</a>
-              <a class="find-more-list__item" href="https://www.xueersi.com/chu1-0-1/" target="_blank" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.xueersi.com/chu1-0-1/&click_id=1.8.5&target_id=1.7&api_id=1.7.0">免费课</a>
-              <a class="find-more-list__item" href="https://zt.xueersi.com/books/kaixueji/" target="_blank" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://zt.xueersi.com/books/kaixueji/&click_id=1.8.8&target_id=''&api_id=1.1.0">逛书城</a>
-              <a class="find-more-list__item" href="https://club.xueersi.com" target="_blank" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://club.xueersi.com&click_id=1.8.9&target_id=''&api_id=1.1.0">学社团</a>
+              <a class="find-more-list__item" href="https://code.mangoya.com" target="_blank" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://code.mangoya.com&click_id=1.8.26target_id=&api_id=1.1.0">编程社区</a>
+              <a class="find-more-list__item" href="https://www.mangoya.com/chu1-0-1/" target="_blank" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.mangoya.com/chu1-0-1/&click_id=1.8.5&target_id=1.7&api_id=1.7.0">免费课</a>
+              <a class="find-more-list__item" href="https://zt.mangoya.com/books/kaixueji/" target="_blank" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://zt.mangoya.com/books/kaixueji/&click_id=1.8.8&target_id=''&api_id=1.1.0">逛书城</a>
+              <a class="find-more-list__item" href="https://club.mangoya.com" target="_blank" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://club.mangoya.com&click_id=1.8.9&target_id=''&api_id=1.1.0">学社团</a>
             </div>
           </div>
         </div> -->

@@ -28,7 +28,7 @@ module.exports = {
     path: config.build.assetsRoot,
     filename: '[name].js',
     publicPath: process.env.NODE_ENV === 'production'
-      ? '//exam.xueersi.com/exam-pc' + config.build.assetsPublicPath
+      ? '//exam.mangoya.com/exam-pc' + config.build.assetsPublicPath
       : config.dev.assetsPublicPath
   },
   resolve: {

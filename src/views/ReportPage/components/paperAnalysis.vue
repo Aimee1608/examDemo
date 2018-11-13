@@ -27,7 +27,7 @@
       <div v-if="wrongNum==0&&checked" class="paper-inner-nowrong"> 非常优秀，没有错题哦</div>
     </div>
     <div v-if="!paperAnalysisData||paperAnalysisData.length==0" class="paper-tip">
-      试卷详解将于 <span>{{showTime}}</span> 开启，您可以届时从<a href="https://i.xueersi.com/PaperSetsNew#/" class="testListLink" target="_blank">试卷集</a>中查看试卷详解   
+      试卷详解将于 <span>{{showTime}}</span> 开启，您可以届时从<a href="https://i.mangoya.com/PaperSetsNew#/" class="testListLink" target="_blank">试卷集</a>中查看试卷详解   
     </div>
   </div>
 </template>

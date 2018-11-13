@@ -1,7 +1,7 @@
 import axios from 'axios'
 import router from '@/router'
 
-const portUrl = '//examination.xueersi.com/'
+const portUrl = '//examination.mangoya.com/'
 
 // 设置全局请求前缀
 axios.defaults.baseURL = portUrl 

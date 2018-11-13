@@ -27,7 +27,7 @@
                             </div>
                         </div>
                         <div class="btn-box">
-                            <a class="go-exam" herf="javascript: void(0)" @click="centerDialogVisible = true" :data-xeslog-params="'key=xeslog-examwait-pc&action=click-exam&click_id=1.1.1&click_url=https://exam.xueersi.com/exam-pc/exam/'+ examId + (courseId?'/' + courseId : '')" >开始诊断</a>
+                            <a class="go-exam" herf="javascript: void(0)" @click="centerDialogVisible = true" :data-xeslog-params="'key=xeslog-examwait-pc&action=click-exam&click_id=1.1.1&click_url=https://exam.mangoya.com/exam-pc/exam/'+ examId + (courseId?'/' + courseId : '')" >开始诊断</a>
                             <a class="go-question" href="javascript: void(0)" @click="gotoBottom">常见问题</a>
                         </div>
                     </div>
@@ -66,8 +66,8 @@
         center>
         <span v-if="reportData.description">请一定要仔细阅读诊断说明</span>
         <div slot="footer" class="dialog-footer">
-             <div class="cancleBtn" @click="centerDialogVisible = false" :data-xeslog-params="'key=xeslog-examwait-pc&action=click-exam-cancle&click_id=1.2.1&click_url=https://exam.xueersi.com/exam-pc/exam/'+ examId + (courseId?'/' + courseId : '')">取消</div>
-            <div class="sureBtn" @click="gotoExam" :data-xeslog-params="'key=xeslog-examwait-pc&action=click-exam-sure&click_id=1.2.2&click_url=https://exam.xueersi.com/exam-pc/exam/'+ examId + (courseId?'/' + courseId : '')">确 定</div>
+             <div class="cancleBtn" @click="centerDialogVisible = false" :data-xeslog-params="'key=xeslog-examwait-pc&action=click-exam-cancle&click_id=1.2.1&click_url=https://exam.mangoya.com/exam-pc/exam/'+ examId + (courseId?'/' + courseId : '')">取消</div>
+            <div class="sureBtn" @click="gotoExam" :data-xeslog-params="'key=xeslog-examwait-pc&action=click-exam-sure&click_id=1.2.2&click_url=https://exam.mangoya.com/exam-pc/exam/'+ examId + (courseId?'/' + courseId : '')">确 定</div>
         </div>
     </el-dialog>
   </div>
@@ -125,7 +125,7 @@ export default {
             } else if (response.data.code == 1004) { // 用户未报名
                 this.$router.replace({name: 'error', query: {stat: 1004, description: response.data.data.singupUrl}})
             } else if (response.data.code == 401) { // 用户未登录去登录
-                window.location.href = 'https://login.xueersi.com/login/' + Base64.encode(window.location.href) 
+                window.location.href = 'https://login.mangoya.com/login/' + Base64.encode(window.location.href) 
             } else if (response.data.code == 1002 || response.data.code == 1000) { // 1002 诊断未开始
                 this.stat = response.data.code
                 this.description = response.data.msg
@@ -137,7 +137,7 @@ export default {
             if (this.$store.state.waitLogin == 1) {
                 const { response: { status } } = e
                 if (status === 401) {
-                    window.location.href = 'https://login.xueersi.com/login/' + Base64.encode(window.location.href) 
+                    window.location.href = 'https://login.mangoya.com/login/' + Base64.encode(window.location.href) 
                 } 
             }
             this.stat = 1000
@@ -154,7 +154,7 @@ export default {
             const { response: { status } } = e
             if (status === 401) { 
                let examUrl = window.location.protocol + '//' + window.location.host + '/exam-pc/exam/' + this.$route.params.examId + (this.$route.params.courseId ? '/' + this.$route.params.courseId : '')
-               window.location.href = 'htstps://login.xueersi.com/login/' + Base64.encode(examUrl)     
+               window.location.href = 'htstps://login.mangoya.com/login/' + Base64.encode(examUrl)     
             } 
             this.description = '页面错误'
         }  

@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       // '**': {
-      //   target: 'http://exam.xueersi.com/',
+      //   target: 'http://exam.mangoya.com/',
       //   changeOrigin: true,
       //   filter: function (pathname, req) {
       //     let proxyApi = /^((\/study\/)|(\/WrongTestsNew\/)|(\/libarts\/)|(\/science\/)|(\/MyCourses?\/)|(\/GoldShop\/)|(\/PaperSetsNew\/)|(\/CourseTests\/))/
@@ -23,7 +23,7 @@ module.exports = {
       //   }
       // },
       // '/exam': {
-      //   target: 'http://apiexam.xueersi.com/',
+      //   target: 'http://apiexam.mangoya.com/',
       //   changeOrigin: true,
       //   pathRewrite: {
       //     '^/exam': 'exam'

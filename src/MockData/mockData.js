@@ -960,7 +960,7 @@ Mock.mock(/exam\/examPaper\/([\w|\?\S*]+)$/, 'get', {
         "entranceTime": '2018-09-03 13:50:01',
         "examId":  "0229d4d9b9be77405aa6619279ea5d5e9",
         "examName":  "还有错吗",
-        "examLink":  "http://exam.xueersi.com/OpenExamination/entrance/0229d4d9b9be77405aa6619279ea5d5e9",
+        "examLink":  "http://exam.mangoya.com/OpenExamination/entrance/0229d4d9b9be77405aa6619279ea5d5e9",
         "startTime":  "2018-08-22  19:52:00",
         "paperId":  534,
         "score":  "20",
@@ -1290,7 +1290,7 @@ Mock.mock(/exam\/submit\/([\w|\?\S*]+)\/([\w|\?\S*]+)/, 'post', {
 })
 
 // 搜索 Index/hotWords
-Mock.mock('http://www.xueersi.com/Index/hotWords', 'post', {
+Mock.mock('http://www.mangoya.com/Index/hotWords', 'post', {
     "status":1,
     "rows":1,
     "data": {

@@ -106,7 +106,7 @@ export default {
       return lefttime
     },
     courseUrl (courseId, classId) {
-      let url = 'https://www.xueersi.com/kc/'
+      let url = 'https://www.mangoya.com/kc/'
       if (classId) {
         url += courseId + '-0-' + classId
       } else {

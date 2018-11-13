@@ -17,7 +17,7 @@
       <a
         v-for="(item, index) in hotwords"
         :key="index"
-        :href="`https://www.xueersi.com/search?keyword=${item}`"
+        :href="`https://www.mangoya.com/search?keyword=${item}`"
         class="hot-words__item">{{item}}</a>
     </div>
     <div class="select-list" v-if="hasSelectVal" :style="{ visibility: isFocus ? 'visible' : 'hidden'}">
@@ -28,7 +28,7 @@
             class="query-list__item"
             v-for="(item, index) in querySugList"
             :key="index"
-            :href="`https://www.xueersi.com/search?keyword=${item}`"
+            :href="`https://www.mangoya.com/search?keyword=${item}`"
             v-html="formatQueryItem(item)">
           </a>
         </div>
@@ -39,7 +39,7 @@
               class="hot-words-item"
               v-for="(item, index) in searchHotWords"
               :key="index"
-              :href="`https://www.xueersi.com/search?keyword=${item}`">
+              :href="`https://www.mangoya.com/search?keyword=${item}`">
               <span class="hot-words-item__tag" :class="`hot-words-item__tag--${index + 1}`">{{index + 1}}</span>{{item}}
             </a>
           </div>
@@ -52,7 +52,7 @@
               class="history__item"
               v-for="(item, index) in searchHistory"
               :key="index"
-              :href="`https://www.xueersi.com/search?keyword=${item}`">{{item}}</a>
+              :href="`https://www.mangoya.com/search?keyword=${item}`">{{item}}</a>
           </div>
         </template>
       </div>
@@ -123,7 +123,7 @@ export default {
       list.push(value)
       localStorage.setItem('searchHistory', { list })
       if (value) {
-        window.open(`https://www.xueersi.com/search?keyword=${value}`)
+        window.open(`https://www.mangoya.com/search?keyword=${value}`)
       }
     },
     handleInput () {

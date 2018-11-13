@@ -2,7 +2,7 @@
   <div class="headerCommon">
       <div class="container clear">
           <div class="logo">
-               <a  href="https://www.xueersi.com" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.xueersi.com&click_id=1.8.1&target_id=1.1&api_id=1.2.0"><img  src="../../assets/logo.svg" alt=""></a>
+               <a  href="https://www.mangoya.com" data-xeslog-params="key=xeslog-headAndSidebar-www&click_url=https://www.mangoya.com&click_id=1.8.1&target_id=1.1&api_id=1.2.0"><img  src="../../assets/logo.svg" alt=""></a>
           </div>
           <div class="headerCommon-title">{{title}}</div>
       </div>  

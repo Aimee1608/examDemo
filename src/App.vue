@@ -21,7 +21,7 @@ export default {
     //   console.log('失败', e)
     //   const { response: { status } } = e
     //   if (status === 401) {
-    //     window.location.href = 'https://login.xueersi.com/login/'+ Base64.encode(window.location.href)
+    //     window.location.href = 'https://login.mangoya.com/login/'+ Base64.encode(window.location.href)
     //   }
     // } 
     // // this.

@@ -37,7 +37,7 @@ router.beforeEach((to, from, next) => {
             next()
           } else { 
             // console.log(888)
-            window.location.href = 'https://login.xueersi.com/login/' + Base64.encode(window.location.protocol + '//' + window.location.host + to.fullPath)     
+            window.location.href = 'https://login.mangoya.com/login/' + Base64.encode(window.location.protocol + '//' + window.location.host + to.fullPath)     
           }     
         }
     } 

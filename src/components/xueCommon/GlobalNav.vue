@@ -76,7 +76,7 @@ export default {
     height: 51px;
     display: inline-block;
     vertical-align: middle;
-    background-image: url('https://res15.xesimg.com/www/img/logo.svg');
+    background-image: url('https://res15.mangoya.com/www/img/logo.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

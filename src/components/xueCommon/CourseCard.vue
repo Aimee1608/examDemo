@@ -255,7 +255,7 @@ export default {
       top: 0px;
       max-width: 120%;
       text-align: center;
-      background-image: url('https://res12.xesimg.com/x5mall/img/student_num_label.png?20171211');
+      background-image: url('https://res12.mangoya.com/x5mall/img/student_num_label.png?20171211');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;

@@ -137,7 +137,7 @@ Mock.mock(/exam\/paperAnalysis\/([\w|\?\S*]+)$/, 'get', {
                     },
                     {
                             "id":  102644,
-                            "stem":  "如图，$$AB\/\/CD$$，直线EF与AB，CD分别交于点M，N，过点N的直线GH与AB交于点P，则下列结论错误的是（　　）    <br>\n<img  src=\"http:\/\/xesfile.xesimg.com\/resource\/tmp\/test_library\/img\/2018\/01\/31\/t_100637_1_2841x3922.jpg?1517366062\">    <br>",
+                            "stem":  "如图，$$AB\/\/CD$$，直线EF与AB，CD分别交于点M，N，过点N的直线GH与AB交于点P，则下列结论错误的是（　　）    <br>\n<img  src=\"http:\/\/xesfile.mangoya.com\/resource\/tmp\/test_library\/img\/2018\/01\/31\/t_100637_1_2841x3922.jpg?1517366062\">    <br>",
                             "type":  2,
                             "choiceType":  1,
                             "materialId":  0,
@@ -146,7 +146,7 @@ Mock.mock(/exam\/paperAnalysis\/([\w|\?\S*]+)$/, 'get', {
                             "audio":  [],
                             "module": '数',
                             "right":  false,
-                            "analysis":  "<img  src=\"http:\/\/xesfile.xesimg.com\/resource\/tmp\/test_library\/img\/2018\/01\/31\/t_100637_2_2841x3838.jpg?1517366096\">  A、∵$$AB\/\/CD$$，    <br>\n∴$$\\angle  EMB=\\angle  END$$（两直线平行，同位角相等）；    <br>\nB、∵$$AB\/\/CD$$，    <br>\n∴$$\\angle  BMN=\\angle  MNC$$（两直线平行，内错角相等）；    <br>\nC、∵$$AB\/\/CD$$，    <br>\n∴$$\\angle  CNH=\\angle  MPN$$（两直线平行，同位角相等），    <br>\n∵$$\\angle  MPN=\\angle  BPG$$（对顶角），    <br>\n∴$$\ \angle CNH=\\angle BPG$$（等量代换）；  <br>\nD、$$\\angle DNG$$与$$\\angle AME$$没有关系，  <br>\n无法判定其相等．  <br>\n故选D．  <br>\n考点：平行线的性质．  <br>\n2016年山东省滨州市中考数学试卷2",
+                            "analysis":  "<img  src=\"http:\/\/xesfile.mangoya.com\/resource\/tmp\/test_library\/img\/2018\/01\/31\/t_100637_2_2841x3838.jpg?1517366096\">  A、∵$$AB\/\/CD$$，    <br>\n∴$$\\angle  EMB=\\angle  END$$（两直线平行，同位角相等）；    <br>\nB、∵$$AB\/\/CD$$，    <br>\n∴$$\\angle  BMN=\\angle  MNC$$（两直线平行，内错角相等）；    <br>\nC、∵$$AB\/\/CD$$，    <br>\n∴$$\\angle  CNH=\\angle  MPN$$（两直线平行，同位角相等），    <br>\n∵$$\\angle  MPN=\\angle  BPG$$（对顶角），    <br>\n∴$$\ \angle CNH=\\angle BPG$$（等量代换）；  <br>\nD、$$\\angle DNG$$与$$\\angle AME$$没有关系，  <br>\n无法判定其相等．  <br>\n故选D．  <br>\n考点：平行线的性质．  <br>\n2016年山东省滨州市中考数学试卷2",
         
                 "stuAnswer": [
                     {
@@ -171,7 +171,7 @@ Mock.mock(/exam\/paperAnalysis\/([\w|\?\S*]+)$/, 'get', {
             },
             {
                 "id": 100638,
-                "stem": "$$-{{1}^{2}}$$等于（　　） 第一张图片<img src=\"http:\/\/xesfile.xesimg.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_1_711x524.png?1517318946\">，第二张图片 <img src=\"http:\/\/xesfile.xesimg.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_1_1096x873.jpg?1517318945\">，第三张图片 <img src=\"http:\/\/xesfile.xesimg.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_5_776x833.jpg?1517318946\"> <br>",
+                "stem": "$$-{{1}^{2}}$$等于（　　） 第一张图片<img src=\"http:\/\/xesfile.mangoya.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_1_711x524.png?1517318946\">，第二张图片 <img src=\"http:\/\/xesfile.mangoya.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_1_1096x873.jpg?1517318945\">，第三张图片 <img src=\"http:\/\/xesfile.mangoya.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_5_776x833.jpg?1517318946\"> <br>",
                 "type": 2,
                 "choiceType": 1,
                 "materialId": 0,
@@ -180,7 +180,7 @@ Mock.mock(/exam\/paperAnalysis\/([\w|\?\S*]+)$/, 'get', {
                 "audio": [],
                 "module": '数',
                 "right": true,
-                "analysis": "$$-{{1}^{2}}=-1$$，  <br>\n故选：B．  <br>\n第一张图片<img src=\"http:\/\/xesfile.xesimg.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_1_711x524.png?1517318946\">，第二张图片 <img src=\"http:\/\/xesfile.xesimg.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_1_1096x873.jpg?1517318945\">，第三张图片 <img src=\"http:\/\/xesfile.xesimg.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_5_776x833.jpg?1517318946\"> \n考点：有理数的乘方．$$$$   <br>\n2016年山东省滨州市中考数学试卷1",
+                "analysis": "$$-{{1}^{2}}=-1$$，  <br>\n故选：B．  <br>\n第一张图片<img src=\"http:\/\/xesfile.mangoya.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_1_711x524.png?1517318946\">，第二张图片 <img src=\"http:\/\/xesfile.mangoya.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_1_1096x873.jpg?1517318945\">，第三张图片 <img src=\"http:\/\/xesfile.mangoya.com\/resource\/tmp\/test_library\/img\/2018\/01\/30\/t_100638_5_776x833.jpg?1517318946\"> \n考点：有理数的乘方．$$$$   <br>\n2016年山东省滨州市中考数学试卷1",
                 "stuAnswer": [
                     {
                         "content":  "$$\\frac{{{x}^{2}}-36}{2x+12}$$p <br>",
@@ -213,7 +213,7 @@ Mock.mock(/exam\/paperAnalysis\/([\w|\?\S*]+)$/, 'get', {
                 "audio": [
                     {
                         "key": "111.mp3",
-                        "value": "http:\/\/xes01.xesimg.com\/test_library\/audio\/2018\/06\/26\/t_130896_111.mp3?1530005870"
+                        "value": "http:\/\/xes01.mangoya.com\/test_library\/audio\/2018\/06\/26\/t_130896_111.mp3?1530005870"
                     }
                 ],
                 "module": '数',
@@ -251,7 +251,7 @@ Mock.mock(/exam\/paperAnalysis\/([\w|\?\S*]+)$/, 'get', {
         "testLists": [
             {
                 "id": 100624,
-                "stem": "如图，矩形ABCD中，$$AB=\\sqrt{3}$$，$$BC=\\sqrt{6}$$，点E在对角线BD上，且$$BE=1.8$$，连接AE并延长交DC于点F，则$$\\frac{CF}{CD}=$$<span class='test_blank' style='width:96'px'>&nbsp;<\/span>.  <br>\n<img src=\"http:\/\/xesfile.xesimg.com\/resource\/tmp\/test_library\/img\/2018\/01\/31\/t_100624_15_862x589.png?1517368255\">  <br>",
+                "stem": "如图，矩形ABCD中，$$AB=\\sqrt{3}$$，$$BC=\\sqrt{6}$$，点E在对角线BD上，且$$BE=1.8$$，连接AE并延长交DC于点F，则$$\\frac{CF}{CD}=$$<span class='test_blank' style='width:96'px'>&nbsp;<\/span>.  <br>\n<img src=\"http:\/\/xesfile.mangoya.com\/resource\/tmp\/test_library\/img\/2018\/01\/31\/t_100624_15_862x589.png?1517368255\">  <br>",
                 "type": 1,
                 "choiceType": 0,
                 "materialId": 0,
@@ -260,7 +260,7 @@ Mock.mock(/exam\/paperAnalysis\/([\w|\?\S*]+)$/, 'get', {
                 "audio": [
                     {
                         "key": "2.mp3",
-                        "value": "http:\/\/xes01.xesimg.com\/test_library\/audio\/2017\/12\/07\/t_20990_2.mp3?1512649989"
+                        "value": "http:\/\/xes01.mangoya.com\/test_library\/audio\/2017\/12\/07\/t_20990_2.mp3?1512649989"
                     }
                 ],
                 "module": '数',
@@ -295,11 +295,11 @@ Mock.mock(/exam\/paperAnalysis\/([\w|\?\S*]+)$/, 'get', {
                 "audio": [
                     {
                         "key": "2.mp3",
-                        "value": "http:\/\/xes01.xesimg.com\/test_library\/audio\/2017\/12\/07\/t_20990_2.mp3?1512649989"
+                        "value": "http:\/\/xes01.mangoya.com\/test_library\/audio\/2017\/12\/07\/t_20990_2.mp3?1512649989"
                     },
                     {
                         "key": "425.mp3",
-                        "value": "http:\/\/xes04.xesimg.com\/test_library\/audio\/2018\/06\/27\/t_130939_425.mp3?1530084423"
+                        "value": "http:\/\/xes04.mangoya.com\/test_library\/audio\/2018\/06\/27\/t_130939_425.mp3?1530084423"
                     }
                 ],
                 "module": '数',
@@ -340,7 +340,7 @@ Mock.mock(/exam\/paperAnalysis\/([\w|\?\S*]+)$/, 'get', {
                         "audio": [
                             {
                                 "key": "2.mp3",
-                                "value": "http:\/\/xes01.xesimg.com\/test_library\/audio\/2017\/12\/07\/t_20990_2.mp3?1512649989"
+                                "value": "http:\/\/xes01.mangoya.com\/test_library\/audio\/2017\/12\/07\/t_20990_2.mp3?1512649989"
                             }
                         ],
                         "module": '数',
@@ -375,7 +375,7 @@ Mock.mock(/exam\/paperAnalysis\/([\w|\?\S*]+)$/, 'get', {
                         "audio": [
                             {
                                 "key": "2.mp3",
-                                "value": "http:\/\/xes01.xesimg.com\/test_library\/audio\/2017\/12\/07\/t_20990_2.mp3?1512649989"
+                                "value": "http:\/\/xes01.mangoya.com\/test_library\/audio\/2017\/12\/07\/t_20990_2.mp3?1512649989"
                             }
                         ],
                         "module": '数',
@@ -538,7 +538,7 @@ Mock.mock(/exam\/recommendCourse\/([\w|\?\S*]+)$/, 'get', {
                     "name": "徐琛主播",
                     "typeName": "授课",
                     "avatars": [
-                        "https://xesfile.xesimg.com/teacher/2016/08/18/14715067997065.jpg"
+                        "https://xesfile.mangoya.com/teacher/2016/08/18/14715067997065.jpg"
                     ]
                 }
             ],
@@ -549,7 +549,7 @@ Mock.mock(/exam\/recommendCourse\/([\w|\?\S*]+)$/, 'get', {
                     "typeName": "辅导",
                     "name": "徐琛辅讲",
                     "avatars": [
-                        "https://xesfile.xesimg.com/web/2017/11/22/15113382042886.png"
+                        "https://xesfile.mangoya.com/web/2017/11/22/15113382042886.png"
                     ],
                     "leftNum": 16
                 }
@@ -609,7 +609,7 @@ Mock.mock(/exam\/recommendCourse\/([\w|\?\S*]+)$/, 'get', {
                     "name": "徐琛授课",
                     "typeName": "授课",
                     "avatars": [
-                        "https://xesfile.xesimg.com/teacher/2017/11/13/15105528833931.jpg"
+                        "https://xesfile.mangoya.com/teacher/2017/11/13/15105528833931.jpg"
                     ]
                 }
             ],
@@ -619,7 +619,7 @@ Mock.mock(/exam\/recommendCourse\/([\w|\?\S*]+)$/, 'get', {
                     "name": "徐琛主播",
                     "typeName": "授课",
                     "avatars": [
-                        "https://xesfile.xesimg.com/teacher/2016/08/18/14715067997065.jpg"
+                        "https://xesfile.mangoya.com/teacher/2016/08/18/14715067997065.jpg"
                     ]
                 }
             ],
@@ -690,7 +690,7 @@ Mock.mock(/exam\/recommendCourse\/([\w|\?\S*]+)$/, 'get', {
                     "name": "徐琛授课",
                     "typeName": "授课",
                     "avatars": [
-                        "https://xesfile.xesimg.com/teacher/2017/11/13/15105528833931.jpg"
+                        "https://xesfile.mangoya.com/teacher/2017/11/13/15105528833931.jpg"
                     ]
                 }
             ],
@@ -700,7 +700,7 @@ Mock.mock(/exam\/recommendCourse\/([\w|\?\S*]+)$/, 'get', {
                     "name": "徐琛主播",
                     "typeName": "授课",
                     "avatars": [
-                        "https://xesfile.xesimg.com/teacher/2016/08/18/14715067997065.jpg"
+                        "https://xesfile.mangoya.com/teacher/2016/08/18/14715067997065.jpg"
                     ]
                 }
             ],
@@ -771,7 +771,7 @@ Mock.mock(/exam\/recommendCourse\/([\w|\?\S*]+)$/, 'get', {
                     "name": "徐琛授课",
                     "typeName": "授课",
                     "avatars": [
-                        "https://xesfile.xesimg.com/teacher/2017/11/13/15105528833931.jpg"
+                        "https://xesfile.mangoya.com/teacher/2017/11/13/15105528833931.jpg"
                     ]
                 }
             ],
@@ -781,7 +781,7 @@ Mock.mock(/exam\/recommendCourse\/([\w|\?\S*]+)$/, 'get', {
                     "name": "徐琛主播",
                     "typeName": "授课",
                     "avatars": [
-                        "https://xesfile.xesimg.com/teacher/2016/08/18/14715067997065.jpg"
+                        "https://xesfile.mangoya.com/teacher/2016/08/18/14715067997065.jpg"
                     ]
                 }
             ],
@@ -852,7 +852,7 @@ Mock.mock(/exam\/recommendCourse\/([\w|\?\S*]+)$/, 'get', {
                     "name": "徐琛授课",
                     "typeName": "授课",
                     "avatars": [
-                        "https://xesfile.xesimg.com/teacher/2017/11/13/15105528833931.jpg"
+                        "https://xesfile.mangoya.com/teacher/2017/11/13/15105528833931.jpg"
                     ]
                 }
             ],
@@ -862,7 +862,7 @@ Mock.mock(/exam\/recommendCourse\/([\w|\?\S*]+)$/, 'get', {
                     "name": "徐琛主播",
                     "typeName": "授课",
                     "avatars": [
-                        "https://xesfile.xesimg.com/teacher/2016/08/18/14715067997065.jpg"
+                        "https://xesfile.mangoya.com/teacher/2016/08/18/14715067997065.jpg"
                     ]
                 }
             ],
@@ -1006,7 +1006,7 @@ Mock.mock(/exam\/examPaper\/([\w|\?\S*]+)$/, 'get', {
                     },
                     {
                             "id":  102644,
-                            "stem":  "如图，$$AB//CD$$，直线EF与AB，CD分别交于点M，N，过点N的直线GH与AB交于点P，则下列结论错误的是（　　）    <br>\n<img  src=\"http://xesfile.xesimg.com/resource/tmp/test_library/img/2018/01/31/t_100637_1_2841x3922.jpg?1517366062\">    <br>",
+                            "stem":  "如图，$$AB//CD$$，直线EF与AB，CD分别交于点M，N，过点N的直线GH与AB交于点P，则下列结论错误的是（　　）    <br>\n<img  src=\"http://xesfile.mangoya.com/resource/tmp/test_library/img/2018/01/31/t_100637_1_2841x3922.jpg?1517366062\">    <br>",
                             "type":  2,
                             "choiceType":  1,
                             "materialId":  0,
@@ -1039,7 +1039,7 @@ Mock.mock(/exam\/examPaper\/([\w|\?\S*]+)$/, 'get', {
                     },
                     {
                         "id": 100638,
-                        "stem": "$$-{{1}^{2}}$$等于（　　） 第一张图片<img src=\"http://xesfile.xesimg.com/resource/tmp/test_library/img/2018/01/30/t_100638_1_711x524.png?1517318946\">，第二张图片 <img src=\"http://xesfile.xesimg.com/resource/tmp/test_library/img/2018/01/30/t_100638_1_1096x873.jpg?1517318945\">，第三张图片 <img src=\"http://xesfile.xesimg.com/resource/tmp/test_library/img/2018/01/30/t_100638_5_776x833.jpg?1517318946\"> <br>",
+                        "stem": "$$-{{1}^{2}}$$等于（　　） 第一张图片<img src=\"http://xesfile.mangoya.com/resource/tmp/test_library/img/2018/01/30/t_100638_1_711x524.png?1517318946\">，第二张图片 <img src=\"http://xesfile.mangoya.com/resource/tmp/test_library/img/2018/01/30/t_100638_1_1096x873.jpg?1517318945\">，第三张图片 <img src=\"http://xesfile.mangoya.com/resource/tmp/test_library/img/2018/01/30/t_100638_5_776x833.jpg?1517318946\"> <br>",
                         "type": 2,
                         "choiceType": 1,
                         "materialId": 0,
@@ -1049,17 +1049,17 @@ Mock.mock(/exam\/examPaper\/([\w|\?\S*]+)$/, 'get', {
                         "optionNum": 4,
                         "option": [
                             {
-                                "content": "1 第一张图片<img src=\"http://xesfile.xesimg.com/resource/tmp/test_library/img/2018/01/30/t_100638_1_711x524.png?1517318946\"><br>",
+                                "content": "1 第一张图片<img src=\"http://xesfile.mangoya.com/resource/tmp/test_library/img/2018/01/30/t_100638_1_711x524.png?1517318946\"><br>",
                                 "is_right": "0",
                                 "label": "A"
                             },
                             {
-                                "content": "$$-1$$ 第二张图片 <img src=\"http://xesfile.xesimg.com/resource/tmp/test_library/img/2018/01/30/t_100638_1_1096x873.jpg?1517318945\">  <br>",
+                                "content": "$$-1$$ 第二张图片 <img src=\"http://xesfile.mangoya.com/resource/tmp/test_library/img/2018/01/30/t_100638_1_1096x873.jpg?1517318945\">  <br>",
                                 "is_right": "1",
                                 "label": "B"
                             },
                             {
-                                "content": "2第三张图片 <img src=\"http://xesfile.xesimg.com/resource/tmp/test_library/img/2018/01/30/t_100638_5_776x833.jpg?1517318946\">   <br>",
+                                "content": "2第三张图片 <img src=\"http://xesfile.mangoya.com/resource/tmp/test_library/img/2018/01/30/t_100638_5_776x833.jpg?1517318946\">   <br>",
                                 "is_right": "0",
                                 "label": "C"
                             },
@@ -1081,7 +1081,7 @@ Mock.mock(/exam\/examPaper\/([\w|\?\S*]+)$/, 'get', {
                         "audio": [
                             {
                                 "key": "111.mp3",
-                                "value": "http://xes01.xesimg.com/test_library/audio/2018/06/26/t_130896_111.mp3?1530005870"
+                                "value": "http://xes01.mangoya.com/test_library/audio/2018/06/26/t_130896_111.mp3?1530005870"
                             }
                         ],
                         "optionNum": 3,
@@ -1114,7 +1114,7 @@ Mock.mock(/exam\/examPaper\/([\w|\?\S*]+)$/, 'get', {
                 "testLists": [
                     {
                         "id": 100600,
-                        "stem": "如图，矩形ABCD中，$$AB=\\sqrt{3}$$，$$BC=\\sqrt{6}$$，点E在对角线BD上，且$$BE=1.8$$，连接AE并延长交DC于点F，则$$\\frac{CF}{CD}=$$<span class='test_blank' style='width:96'px'>&nbsp;</span>.  <br>\n<img src=\"http://xesfile.xesimg.com/resource/tmp/test_library/img/2018/01/31/t_100624_15_862x589.png?1517368255\">  <br>",
+                        "stem": "如图，矩形ABCD中，$$AB=\\sqrt{3}$$，$$BC=\\sqrt{6}$$，点E在对角线BD上，且$$BE=1.8$$，连接AE并延长交DC于点F，则$$\\frac{CF}{CD}=$$<span class='test_blank' style='width:96'px'>&nbsp;</span>.  <br>\n<img src=\"http://xesfile.mangoya.com/resource/tmp/test_library/img/2018/01/31/t_100624_15_862x589.png?1517368255\">  <br>",
                         "type": 1,
                         "choiceType": 0,
                         "materialId": 0,
@@ -1123,7 +1123,7 @@ Mock.mock(/exam\/examPaper\/([\w|\?\S*]+)$/, 'get', {
                         "audio": [
                             {
                                 "key": "2.mp3",
-                                "value": "http://xes03.xesimg.com/test_library/audio/2017/12/07/t_20990_2.mp3?1512649989"
+                                "value": "http://xes03.mangoya.com/test_library/audio/2017/12/07/t_20990_2.mp3?1512649989"
                             }
                         ],
                         "optionNum": 0,
@@ -1147,11 +1147,11 @@ Mock.mock(/exam\/examPaper\/([\w|\?\S*]+)$/, 'get', {
                         "audio": [
                             {
                                 "key": "2.mp3",
-                                "value": "http://xes03.xesimg.com/test_library/audio/2017/12/07/t_20990_2.mp3?1512649989"
+                                "value": "http://xes03.mangoya.com/test_library/audio/2017/12/07/t_20990_2.mp3?1512649989"
                             },
                             {
                                 "key": "425.mp3",
-                                "value": "http://xes02.xesimg.com/test_library/audio/2018/06/27/t_130939_425.mp3?1530084423"
+                                "value": "http://xes02.mangoya.com/test_library/audio/2018/06/27/t_130939_425.mp3?1530084423"
                             }
                         ],
                         "optionNum": 0,
@@ -1178,7 +1178,7 @@ Mock.mock(/exam\/examPaper\/([\w|\?\S*]+)$/, 'get', {
                                 "audio": [
                                     {
                                         "key": "2.mp3",
-                                        "value": "http://xes03.xesimg.com/test_library/audio/2017/12/07/t_20990_2.mp3?1512649989"
+                                        "value": "http://xes03.mangoya.com/test_library/audio/2017/12/07/t_20990_2.mp3?1512649989"
                                     }
                                 ],
                                 "optionNum": 0,
@@ -1266,7 +1266,7 @@ Mock.mock(/exam\/examPaper\/([\w|\?\S*]+)$/, 'get', {
                 "realname": "",
                 "nickname": "",
                 "en_name": "",
-                "avatar_path": "https://xesfile.xesimg.com/user/h/def10002.png",
+                "avatar_path": "https://xesfile.mangoya.com/user/h/def10002.png",
                 "avatar_version": "0",
                 "auth": "1",
                 "status": "1",
